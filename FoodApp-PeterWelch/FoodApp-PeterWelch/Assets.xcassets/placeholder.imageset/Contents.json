@@ -1,17 +1,16 @@
 {
   "images" : [
     {
-      "filename" : "butterChickenx1.jpg",
+      "filename" : "placeholder_icon.jpg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "butterChickenx2.jpg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "butterChickenx3.jpg",
+      "filename" : "placeholder.jpg",
       "idiom" : "universal",
       "scale" : "3x"
     }

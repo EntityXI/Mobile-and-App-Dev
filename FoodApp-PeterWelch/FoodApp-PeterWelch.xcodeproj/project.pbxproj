@@ -7,62 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7DB55C41261A6EEB008A8FBD /* FoodApp_PeterWelchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB55C40261A6EEB008A8FBD /* FoodApp_PeterWelchApp.swift */; };
-		7DB55C43261A6EEB008A8FBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB55C42261A6EEB008A8FBD /* ContentView.swift */; };
-		7DB55C45261A6EEC008A8FBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB55C44261A6EEC008A8FBD /* Assets.xcassets */; };
-		7DB55C48261A6EEC008A8FBD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB55C47261A6EEC008A8FBD /* Preview Assets.xcassets */; };
-		7DB55C53261A6EEC008A8FBD /* FoodApp_PeterWelchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB55C52261A6EEC008A8FBD /* FoodApp_PeterWelchTests.swift */; };
-		7DB55C5E261A6EEC008A8FBD /* FoodApp_PeterWelchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB55C5D261A6EEC008A8FBD /* FoodApp_PeterWelchUITests.swift */; };
+		7D4A69D826250FF400522249 /* FoodApp_PeterWelchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A69D726250FF400522249 /* FoodApp_PeterWelchApp.swift */; };
+		7D4A69DA26250FF400522249 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A69D926250FF400522249 /* ContentView.swift */; };
+		7D4A69DC26250FF400522249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4A69DB26250FF400522249 /* Assets.xcassets */; };
+		7D4A69DF26250FF400522249 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D4A69DE26250FF400522249 /* Preview Assets.xcassets */; };
+		7D4A69EA26250FF400522249 /* FoodApp_PeterWelchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A69E926250FF400522249 /* FoodApp_PeterWelchTests.swift */; };
+		7D4A69F526250FF400522249 /* FoodApp_PeterWelchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A69F426250FF400522249 /* FoodApp_PeterWelchUITests.swift */; };
+		7D4A6A07262510AE00522249 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A6A06262510AE00522249 /* Food.swift */; };
+		7D4A6A0C2625234400522249 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A6A0B2625234400522249 /* Dish.swift */; };
+		7D4A6A28262547A200522249 /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A6A27262547A200522249 /* FoodList.swift */; };
+		7D4A6A4226254B8200522249 /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4A6A4126254B8200522249 /* FoodDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7DB55C4F261A6EEC008A8FBD /* PBXContainerItemProxy */ = {
+		7D4A69E626250FF400522249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7DB55C35261A6EEB008A8FBD /* Project object */;
+			containerPortal = 7D4A69CC26250FF400522249 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7DB55C3C261A6EEB008A8FBD;
+			remoteGlobalIDString = 7D4A69D326250FF400522249;
 			remoteInfo = "FoodApp-PeterWelch";
 		};
-		7DB55C5A261A6EEC008A8FBD /* PBXContainerItemProxy */ = {
+		7D4A69F126250FF400522249 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7DB55C35261A6EEB008A8FBD /* Project object */;
+			containerPortal = 7D4A69CC26250FF400522249 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7DB55C3C261A6EEB008A8FBD;
+			remoteGlobalIDString = 7D4A69D326250FF400522249;
 			remoteInfo = "FoodApp-PeterWelch";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7DB55C3D261A6EEB008A8FBD /* FoodApp-PeterWelch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodApp-PeterWelch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DB55C40261A6EEB008A8FBD /* FoodApp_PeterWelchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp_PeterWelchApp.swift; sourceTree = "<group>"; };
-		7DB55C42261A6EEB008A8FBD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7DB55C44261A6EEC008A8FBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7DB55C47261A6EEC008A8FBD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7DB55C49261A6EEC008A8FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DB55C4E261A6EEC008A8FBD /* FoodApp-PeterWelchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodApp-PeterWelchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DB55C52261A6EEC008A8FBD /* FoodApp_PeterWelchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp_PeterWelchTests.swift; sourceTree = "<group>"; };
-		7DB55C54261A6EEC008A8FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7DB55C59261A6EEC008A8FBD /* FoodApp-PeterWelchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodApp-PeterWelchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7DB55C5D261A6EEC008A8FBD /* FoodApp_PeterWelchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp_PeterWelchUITests.swift; sourceTree = "<group>"; };
-		7DB55C5F261A6EEC008A8FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4A69D426250FF400522249 /* FoodApp-PeterWelch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FoodApp-PeterWelch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4A69D726250FF400522249 /* FoodApp_PeterWelchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp_PeterWelchApp.swift; sourceTree = "<group>"; };
+		7D4A69D926250FF400522249 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D4A69DB26250FF400522249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D4A69DE26250FF400522249 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D4A69E026250FF400522249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4A69E526250FF400522249 /* FoodApp-PeterWelchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodApp-PeterWelchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4A69E926250FF400522249 /* FoodApp_PeterWelchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp_PeterWelchTests.swift; sourceTree = "<group>"; };
+		7D4A69EB26250FF400522249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4A69F026250FF400522249 /* FoodApp-PeterWelchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FoodApp-PeterWelchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D4A69F426250FF400522249 /* FoodApp_PeterWelchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodApp_PeterWelchUITests.swift; sourceTree = "<group>"; };
+		7D4A69F626250FF400522249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D4A6A06262510AE00522249 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		7D4A6A0B2625234400522249 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		7D4A6A27262547A200522249 /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
+		7D4A6A4126254B8200522249 /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7DB55C3A261A6EEB008A8FBD /* Frameworks */ = {
+		7D4A69D126250FF400522249 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB55C4B261A6EEC008A8FBD /* Frameworks */ = {
+		7D4A69E226250FF400522249 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB55C56261A6EEC008A8FBD /* Frameworks */ = {
+		7D4A69ED26250FF400522249 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,74 +80,94 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7DB55C34261A6EEB008A8FBD = {
+		7D4A69CB26250FF400522249 = {
 			isa = PBXGroup;
 			children = (
-				7DB55C3F261A6EEB008A8FBD /* FoodApp-PeterWelch */,
-				7DB55C51261A6EEC008A8FBD /* FoodApp-PeterWelchTests */,
-				7DB55C5C261A6EEC008A8FBD /* FoodApp-PeterWelchUITests */,
-				7DB55C3E261A6EEB008A8FBD /* Products */,
+				7D4A69D626250FF400522249 /* FoodApp-PeterWelch */,
+				7D4A69E826250FF400522249 /* FoodApp-PeterWelchTests */,
+				7D4A69F326250FF400522249 /* FoodApp-PeterWelchUITests */,
+				7D4A69D526250FF400522249 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7DB55C3E261A6EEB008A8FBD /* Products */ = {
+		7D4A69D526250FF400522249 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7DB55C3D261A6EEB008A8FBD /* FoodApp-PeterWelch.app */,
-				7DB55C4E261A6EEC008A8FBD /* FoodApp-PeterWelchTests.xctest */,
-				7DB55C59261A6EEC008A8FBD /* FoodApp-PeterWelchUITests.xctest */,
+				7D4A69D426250FF400522249 /* FoodApp-PeterWelch.app */,
+				7D4A69E526250FF400522249 /* FoodApp-PeterWelchTests.xctest */,
+				7D4A69F026250FF400522249 /* FoodApp-PeterWelchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7DB55C3F261A6EEB008A8FBD /* FoodApp-PeterWelch */ = {
+		7D4A69D626250FF400522249 /* FoodApp-PeterWelch */ = {
 			isa = PBXGroup;
 			children = (
-				7DB55C40261A6EEB008A8FBD /* FoodApp_PeterWelchApp.swift */,
-				7DB55C42261A6EEB008A8FBD /* ContentView.swift */,
-				7DB55C44261A6EEC008A8FBD /* Assets.xcassets */,
-				7DB55C49261A6EEC008A8FBD /* Info.plist */,
-				7DB55C46261A6EEC008A8FBD /* Preview Content */,
+				7D4A69D926250FF400522249 /* ContentView.swift */,
+				7D4A6A4D262870E900522249 /* FoodViews */,
+				7D4A6A232625475800522249 /* Class */,
+				7D4A69D726250FF400522249 /* FoodApp_PeterWelchApp.swift */,
+				7D4A69DB26250FF400522249 /* Assets.xcassets */,
+				7D4A69E026250FF400522249 /* Info.plist */,
+				7D4A69DD26250FF400522249 /* Preview Content */,
 			);
 			path = "FoodApp-PeterWelch";
 			sourceTree = "<group>";
 		};
-		7DB55C46261A6EEC008A8FBD /* Preview Content */ = {
+		7D4A69DD26250FF400522249 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				7DB55C47261A6EEC008A8FBD /* Preview Assets.xcassets */,
+				7D4A69DE26250FF400522249 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		7DB55C51261A6EEC008A8FBD /* FoodApp-PeterWelchTests */ = {
+		7D4A69E826250FF400522249 /* FoodApp-PeterWelchTests */ = {
 			isa = PBXGroup;
 			children = (
-				7DB55C52261A6EEC008A8FBD /* FoodApp_PeterWelchTests.swift */,
-				7DB55C54261A6EEC008A8FBD /* Info.plist */,
+				7D4A69E926250FF400522249 /* FoodApp_PeterWelchTests.swift */,
+				7D4A69EB26250FF400522249 /* Info.plist */,
 			);
 			path = "FoodApp-PeterWelchTests";
 			sourceTree = "<group>";
 		};
-		7DB55C5C261A6EEC008A8FBD /* FoodApp-PeterWelchUITests */ = {
+		7D4A69F326250FF400522249 /* FoodApp-PeterWelchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7DB55C5D261A6EEC008A8FBD /* FoodApp_PeterWelchUITests.swift */,
-				7DB55C5F261A6EEC008A8FBD /* Info.plist */,
+				7D4A69F426250FF400522249 /* FoodApp_PeterWelchUITests.swift */,
+				7D4A69F626250FF400522249 /* Info.plist */,
 			);
 			path = "FoodApp-PeterWelchUITests";
+			sourceTree = "<group>";
+		};
+		7D4A6A232625475800522249 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				7D4A6A06262510AE00522249 /* Food.swift */,
+				7D4A6A0B2625234400522249 /* Dish.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		7D4A6A4D262870E900522249 /* FoodViews */ = {
+			isa = PBXGroup;
+			children = (
+				7D4A6A27262547A200522249 /* FoodList.swift */,
+				7D4A6A4126254B8200522249 /* FoodDetail.swift */,
+			);
+			path = FoodViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7DB55C3C261A6EEB008A8FBD /* FoodApp-PeterWelch */ = {
+		7D4A69D326250FF400522249 /* FoodApp-PeterWelch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DB55C62261A6EEC008A8FBD /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelch" */;
+			buildConfigurationList = 7D4A69F926250FF400522249 /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelch" */;
 			buildPhases = (
-				7DB55C39261A6EEB008A8FBD /* Sources */,
-				7DB55C3A261A6EEB008A8FBD /* Frameworks */,
-				7DB55C3B261A6EEB008A8FBD /* Resources */,
+				7D4A69D026250FF400522249 /* Sources */,
+				7D4A69D126250FF400522249 /* Frameworks */,
+				7D4A69D226250FF400522249 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -147,68 +175,68 @@
 			);
 			name = "FoodApp-PeterWelch";
 			productName = "FoodApp-PeterWelch";
-			productReference = 7DB55C3D261A6EEB008A8FBD /* FoodApp-PeterWelch.app */;
+			productReference = 7D4A69D426250FF400522249 /* FoodApp-PeterWelch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7DB55C4D261A6EEC008A8FBD /* FoodApp-PeterWelchTests */ = {
+		7D4A69E426250FF400522249 /* FoodApp-PeterWelchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DB55C65261A6EEC008A8FBD /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchTests" */;
+			buildConfigurationList = 7D4A69FC26250FF400522249 /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchTests" */;
 			buildPhases = (
-				7DB55C4A261A6EEC008A8FBD /* Sources */,
-				7DB55C4B261A6EEC008A8FBD /* Frameworks */,
-				7DB55C4C261A6EEC008A8FBD /* Resources */,
+				7D4A69E126250FF400522249 /* Sources */,
+				7D4A69E226250FF400522249 /* Frameworks */,
+				7D4A69E326250FF400522249 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7DB55C50261A6EEC008A8FBD /* PBXTargetDependency */,
+				7D4A69E726250FF400522249 /* PBXTargetDependency */,
 			);
 			name = "FoodApp-PeterWelchTests";
 			productName = "FoodApp-PeterWelchTests";
-			productReference = 7DB55C4E261A6EEC008A8FBD /* FoodApp-PeterWelchTests.xctest */;
+			productReference = 7D4A69E526250FF400522249 /* FoodApp-PeterWelchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7DB55C58261A6EEC008A8FBD /* FoodApp-PeterWelchUITests */ = {
+		7D4A69EF26250FF400522249 /* FoodApp-PeterWelchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7DB55C68261A6EEC008A8FBD /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchUITests" */;
+			buildConfigurationList = 7D4A69FF26250FF400522249 /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchUITests" */;
 			buildPhases = (
-				7DB55C55261A6EEC008A8FBD /* Sources */,
-				7DB55C56261A6EEC008A8FBD /* Frameworks */,
-				7DB55C57261A6EEC008A8FBD /* Resources */,
+				7D4A69EC26250FF400522249 /* Sources */,
+				7D4A69ED26250FF400522249 /* Frameworks */,
+				7D4A69EE26250FF400522249 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7DB55C5B261A6EEC008A8FBD /* PBXTargetDependency */,
+				7D4A69F226250FF400522249 /* PBXTargetDependency */,
 			);
 			name = "FoodApp-PeterWelchUITests";
 			productName = "FoodApp-PeterWelchUITests";
-			productReference = 7DB55C59261A6EEC008A8FBD /* FoodApp-PeterWelchUITests.xctest */;
+			productReference = 7D4A69F026250FF400522249 /* FoodApp-PeterWelchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7DB55C35261A6EEB008A8FBD /* Project object */ = {
+		7D4A69CC26250FF400522249 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					7DB55C3C261A6EEB008A8FBD = {
+					7D4A69D326250FF400522249 = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					7DB55C4D261A6EEC008A8FBD = {
+					7D4A69E426250FF400522249 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 7DB55C3C261A6EEB008A8FBD;
+						TestTargetID = 7D4A69D326250FF400522249;
 					};
-					7DB55C58261A6EEC008A8FBD = {
+					7D4A69EF26250FF400522249 = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 7DB55C3C261A6EEB008A8FBD;
+						TestTargetID = 7D4A69D326250FF400522249;
 					};
 				};
 			};
-			buildConfigurationList = 7DB55C38261A6EEB008A8FBD /* Build configuration list for PBXProject "FoodApp-PeterWelch" */;
+			buildConfigurationList = 7D4A69CF26250FF400522249 /* Build configuration list for PBXProject "FoodApp-PeterWelch" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -216,36 +244,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 7DB55C34261A6EEB008A8FBD;
-			productRefGroup = 7DB55C3E261A6EEB008A8FBD /* Products */;
+			mainGroup = 7D4A69CB26250FF400522249;
+			productRefGroup = 7D4A69D526250FF400522249 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7DB55C3C261A6EEB008A8FBD /* FoodApp-PeterWelch */,
-				7DB55C4D261A6EEC008A8FBD /* FoodApp-PeterWelchTests */,
-				7DB55C58261A6EEC008A8FBD /* FoodApp-PeterWelchUITests */,
+				7D4A69D326250FF400522249 /* FoodApp-PeterWelch */,
+				7D4A69E426250FF400522249 /* FoodApp-PeterWelchTests */,
+				7D4A69EF26250FF400522249 /* FoodApp-PeterWelchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7DB55C3B261A6EEB008A8FBD /* Resources */ = {
+		7D4A69D226250FF400522249 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB55C48261A6EEC008A8FBD /* Preview Assets.xcassets in Resources */,
-				7DB55C45261A6EEC008A8FBD /* Assets.xcassets in Resources */,
+				7D4A69DF26250FF400522249 /* Preview Assets.xcassets in Resources */,
+				7D4A69DC26250FF400522249 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB55C4C261A6EEC008A8FBD /* Resources */ = {
+		7D4A69E326250FF400522249 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB55C57261A6EEC008A8FBD /* Resources */ = {
+		7D4A69EE26250FF400522249 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,48 +283,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7DB55C39261A6EEB008A8FBD /* Sources */ = {
+		7D4A69D026250FF400522249 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB55C43261A6EEB008A8FBD /* ContentView.swift in Sources */,
-				7DB55C41261A6EEB008A8FBD /* FoodApp_PeterWelchApp.swift in Sources */,
+				7D4A69DA26250FF400522249 /* ContentView.swift in Sources */,
+				7D4A6A0C2625234400522249 /* Dish.swift in Sources */,
+				7D4A6A4226254B8200522249 /* FoodDetail.swift in Sources */,
+				7D4A69D826250FF400522249 /* FoodApp_PeterWelchApp.swift in Sources */,
+				7D4A6A07262510AE00522249 /* Food.swift in Sources */,
+				7D4A6A28262547A200522249 /* FoodList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB55C4A261A6EEC008A8FBD /* Sources */ = {
+		7D4A69E126250FF400522249 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB55C53261A6EEC008A8FBD /* FoodApp_PeterWelchTests.swift in Sources */,
+				7D4A69EA26250FF400522249 /* FoodApp_PeterWelchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DB55C55261A6EEC008A8FBD /* Sources */ = {
+		7D4A69EC26250FF400522249 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7DB55C5E261A6EEC008A8FBD /* FoodApp_PeterWelchUITests.swift in Sources */,
+				7D4A69F526250FF400522249 /* FoodApp_PeterWelchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7DB55C50261A6EEC008A8FBD /* PBXTargetDependency */ = {
+		7D4A69E726250FF400522249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7DB55C3C261A6EEB008A8FBD /* FoodApp-PeterWelch */;
-			targetProxy = 7DB55C4F261A6EEC008A8FBD /* PBXContainerItemProxy */;
+			target = 7D4A69D326250FF400522249 /* FoodApp-PeterWelch */;
+			targetProxy = 7D4A69E626250FF400522249 /* PBXContainerItemProxy */;
 		};
-		7DB55C5B261A6EEC008A8FBD /* PBXTargetDependency */ = {
+		7D4A69F226250FF400522249 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7DB55C3C261A6EEB008A8FBD /* FoodApp-PeterWelch */;
-			targetProxy = 7DB55C5A261A6EEC008A8FBD /* PBXContainerItemProxy */;
+			target = 7D4A69D326250FF400522249 /* FoodApp-PeterWelch */;
+			targetProxy = 7D4A69F126250FF400522249 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		7DB55C60261A6EEC008A8FBD /* Debug */ = {
+		7D4A69F726250FF400522249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -357,7 +389,7 @@
 			};
 			name = Debug;
 		};
-		7DB55C61261A6EEC008A8FBD /* Release */ = {
+		7D4A69F826250FF400522249 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -412,7 +444,7 @@
 			};
 			name = Release;
 		};
-		7DB55C63261A6EEC008A8FBD /* Debug */ = {
+		7D4A69FA26250FF400522249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -426,14 +458,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.FoodApp-PeterWelch";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.griffithuni.FoodApp-PeterWelch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		7DB55C64261A6EEC008A8FBD /* Release */ = {
+		7D4A69FB26250FF400522249 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -447,14 +479,14 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.FoodApp-PeterWelch";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.griffithuni.FoodApp-PeterWelch";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		7DB55C66261A6EEC008A8FBD /* Debug */ = {
+		7D4A69FD26250FF400522249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -467,7 +499,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.FoodApp-PeterWelchTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.griffithuni.FoodApp-PeterWelchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -475,7 +507,7 @@
 			};
 			name = Debug;
 		};
-		7DB55C67261A6EEC008A8FBD /* Release */ = {
+		7D4A69FE26250FF400522249 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -488,7 +520,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.FoodApp-PeterWelchTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.griffithuni.FoodApp-PeterWelchTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,7 +528,7 @@
 			};
 			name = Release;
 		};
-		7DB55C69261A6EEC008A8FBD /* Debug */ = {
+		7D4A6A0026250FF400522249 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -507,7 +539,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.FoodApp-PeterWelchUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.griffithuni.FoodApp-PeterWelchUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -515,7 +547,7 @@
 			};
 			name = Debug;
 		};
-		7DB55C6A261A6EEC008A8FBD /* Release */ = {
+		7D4A6A0126250FF400522249 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -526,7 +558,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.FoodApp-PeterWelchUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "app.dev.griffithuni.FoodApp-PeterWelchUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -537,43 +569,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7DB55C38261A6EEB008A8FBD /* Build configuration list for PBXProject "FoodApp-PeterWelch" */ = {
+		7D4A69CF26250FF400522249 /* Build configuration list for PBXProject "FoodApp-PeterWelch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DB55C60261A6EEC008A8FBD /* Debug */,
-				7DB55C61261A6EEC008A8FBD /* Release */,
+				7D4A69F726250FF400522249 /* Debug */,
+				7D4A69F826250FF400522249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DB55C62261A6EEC008A8FBD /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelch" */ = {
+		7D4A69F926250FF400522249 /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DB55C63261A6EEC008A8FBD /* Debug */,
-				7DB55C64261A6EEC008A8FBD /* Release */,
+				7D4A69FA26250FF400522249 /* Debug */,
+				7D4A69FB26250FF400522249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DB55C65261A6EEC008A8FBD /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchTests" */ = {
+		7D4A69FC26250FF400522249 /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DB55C66261A6EEC008A8FBD /* Debug */,
-				7DB55C67261A6EEC008A8FBD /* Release */,
+				7D4A69FD26250FF400522249 /* Debug */,
+				7D4A69FE26250FF400522249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7DB55C68261A6EEC008A8FBD /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchUITests" */ = {
+		7D4A69FF26250FF400522249 /* Build configuration list for PBXNativeTarget "FoodApp-PeterWelchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7DB55C69261A6EEC008A8FBD /* Debug */,
-				7DB55C6A261A6EEC008A8FBD /* Release */,
+				7D4A6A0026250FF400522249 /* Debug */,
+				7D4A6A0126250FF400522249 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7DB55C35261A6EEB008A8FBD /* Project object */;
+	rootObject = 7D4A69CC26250FF400522249 /* Project object */;
 }
